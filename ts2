@@ -1,0 +1,5 @@
+=Col	=Copy(0,0)	=Copy(0,0)	=Copy(0,0)
+=Col*2
+=Row*Col	=Copy(2,0)	=Copy(2,0)	=Copy(2,0)
+=Copy(2,0)	=Copy(2,0)	=Copy(2,0)	=Copy(2,0)
+

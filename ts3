@@ -1,0 +1,4 @@
+=Cell(1,0)+2	=5*Cell(3,0)+2
+=Cell(2,0)	=7+Cell(0,1)+Cell(0,0)
+=Cell(0,0)+Cell(3,0)	=sum(Cell(3,0),Cell(0,1))
+=(Row+1)*(Col+1)	=round(pi,3)

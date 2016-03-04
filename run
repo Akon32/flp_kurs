@@ -1,0 +1,7 @@
+#!/bin/sh
+if [ -z $1 ] ; then echo "Usage: ./run input [output [errors]]" 
+elif [ -z $2 ] ; then ./SpreadSheet <$1 
+elif [ -z $3 ] ; then ./SpreadSheet <$1 >$2
+else ./SpreadSheet <$1 >$2 2>$3
+fi
+

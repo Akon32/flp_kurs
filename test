@@ -1,0 +1,17 @@
+#!/bin/sh
+inp=$1
+if [ -z $inp ]; then 
+ echo "Usage: ./test input_file" 
+ exit 
+fi
+out=/tmp/test_out
+err=/tmp/test_err
+./SpreadSheet <$inp >$out 2>$err
+echo "*************  I N P U T ****************"
+cat $inp
+echo "************* O U T P U T ***************"
+cat $out
+echo "************* E R R O R S ***************"
+cat $err
+rm $out $err
+
